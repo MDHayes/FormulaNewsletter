@@ -1,0 +1,266 @@
+@media (min-width: 0px) {
+    * {
+        color: rgb(0, 0, 0);
+    }
+
+    h1 a, h1 a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .signup .help-block {
+        color: rgb(255, 255, 255);
+    }
+
+    .title h1 {
+        color: rgb(255, 255, 255);
+    }
+
+    .help-block {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    footer {
+        color: rgb(255, 255, 255);
+    }
+
+    .archive a {
+        font-size: 1.8em
+    }
+
+    body {
+        background: none,
+    }
+
+    .mail-well {
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    border:2px solid;
+    border-radius:25px;
+    }
+
+    .title, .description {
+    padding: 50px 20px 10px 10px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+}
+
+.description {
+    padding: 10px 20px 30px 20px;
+}
+}
+.bg-img {
+        display: block;
+        width: auto;
+        height: auto;
+        background: url(../img/large.jpg) no-repeat center center fixed
+    }
+
+.btn-primary, input {
+        opacity:0.9;
+        filter:alpha(opacity=90);
+    }
+
+@media (max-width: 900px) {
+    .bg-img {
+        display: block;
+        width: auto;
+        height: auto;
+        background: url(../img/medium.jpg) no-repeat center center fixed
+    }
+
+     .btn-success, input {
+        opacity:0.9;
+        filter:alpha(opacity=90);
+    }
+
+    .mail-well {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 50px 100px 5px 100px;
+    border:2px solid;
+    border-radius:25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bg-img {
+        display: block;
+        width: auto;
+        height: auto;
+        background: url(../img/small.jpg) no-repeat center center fixed
+    }
+
+    .mail-well {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 50px 9px 50px 9px;
+    border:2px solid;
+    border-radius:25px;
+    }
+
+    h1 a, h1 a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    a, a:hover {
+        color: rgb(230, 230, 230);
+    }
+
+    .signup .help-block {
+        color: rgb(255, 255, 255);
+
+    }
+
+    .title{
+        font-size: 14px;
+    }
+
+    .title h1 {
+        color: rgb(255, 255, 255);
+    }
+
+    .help-block {
+        color: rgb(245, 245, 245) !important;
+    }
+
+    footer {
+        color: rgb(237, 237, 237);
+    }
+
+    .archive a {
+        font-size: 2em;
+    }
+
+    .btn-success, input {
+        opacity:0.9;
+        filter:alpha(opacity=90);
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+
+    .input-lg {
+     height: 30px;
+     padding: 5px 16px;
+     font-size: 12px;
+     line-height: 1.33;
+     border-radius: 6px;
+    }
+
+    .title, .description {
+    padding: 5px 20px 10px 10px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+}
+}
+
+.alert p *, .alert p{
+    color: rgb(25, 25, 25);
+}
+
+.glyphicon { margin-right:5px; }
+
+
+h1
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+h2
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h3
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.signup {
+	margin: 0;
+	padding: 20px 10px;
+}
+
+.signup .help-block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+    color: #000000;
+}
+
+.previous-issue {
+	font-size: 21px;
+	text-align: center;
+}
+
+.past-issues li {
+    display: block;
+}
+
+.past-issues a {
+    font-size: 16px;
+}
+
+.archive h4 a {
+    font-size: 18px;
+}
+
+/* Following is for sticky footer source: cssstickyfooter.com */
+html, body {height: 100%;}
+
+#body-wrap {min-height: 100%;}
+
+#main {
+	overflow:auto;
+	padding-bottom: 50px;
+}  /* must be same height as the footer */
+
+footer {
+	position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear:both;
+	text-align: center;
+    color: rgb(237, 237, 237);
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+.social {
+	width: 100%;
+	text-align: center;
+}
+
+.social-inner {
+	display: inline-block;
+}
+
+.archive {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.alert {
+    font-size: 18px;
+}
+
+a, a:hover {
+        color: rgb(230, 230, 230);
+}

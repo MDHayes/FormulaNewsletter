@@ -1,0 +1,3 @@
+$(function() {
+	$('#fieldEmail').focus();
+});
